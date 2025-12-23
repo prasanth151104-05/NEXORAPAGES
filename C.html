@@ -4,7 +4,7 @@
   
   <title>Bootstrap Theme Company Page</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -197,7 +197,24 @@
       -webkit-transform: translateY(0%);
     }
   }
-  @media screen and (max-width:767px), screen and (min-width:768px) and (max-width:991px), screen and (min-width:992px) and (max-width:1199px), screen and (min-width:1200px) {
+  @media screen and (max-width: 320px) {
+  body { font-size: 10px; }
+}
+
+/* Phone / small screens */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  body { font-size: 12px; }
+}
+
+/* Tablet / medium screens */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body { font-size: 14px; }
+}
+
+/* Desktop / large screens */
+@media screen and (min-width: 769px) {
+  body { font-size: 16px; }
+}
     .col-sm-4 {
       text-align: center;
       margin: 25px 0;
@@ -206,12 +223,12 @@
       width: 100%;
       margin-bottom: 35px;
     }
-  }
-  @media screen and (max-width: 480px) {
+  
+   
     .logo {
       font-size: 150px;
     }
-  }
+  
 
   
 
@@ -228,7 +245,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">Logo</a>
+      <a class="navbar-brand" href="#myPage">WELCOME TO NEXORA</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -342,7 +359,7 @@ Experience time differently — with craftsmanship that lasts generations. </p>
       <div class="thumbnail">
         <img src="SMARTT.jpg" alt="SMART WATCHES" width="300" height="300">
         <p><strong>SMART WATCHES</strong></p>
-        <p>NEXORA Magnus NX1 Luxury Metal Leather with High Ultra LED Display and SingleSync BT Calling. The product packs a Functional Crown and Premium Metal Design.. </p>
+        <p>NEXORA Magnus NX1 Luxury Metal Leather with High Ultra LED Display, SingleSync BT Calling, Sleek Functional Crown, Elegant Stylish Modern Durable Precision and Premium Metal Design. </p>
       </div>
     </div>
     <div class="col-sm-4">
@@ -354,7 +371,7 @@ Experience time differently — with craftsmanship that lasts generations. </p>
     </div>
     <div class="col-sm-4" >
       <div class="thumbnail">
-        <img src="CHRO.jpg" alt="CH" width="400px" height="400px">
+        <img src="CHRO.jpg" alt="CH" width="300px" height="300px">
         <p><strong>CHRONOGRAPH WATCH</strong></p>
         <p>A large standard chronograph. The three dimensional bezel and strong in-dial design and coloring create a powerful design it features dials or subdials to display seconds,minutes,and hours.</p>
       </div>
@@ -398,7 +415,7 @@ Experience time differently — with craftsmanship that lasts generations. </p>
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid">
   <div class="text-center">
-    <h2>Pricing</h2>
+    <h2>PRICING</h2>
     <h4>Choose a payment plan that works for you</h4>
   </div>
   <div class="row slideanim">
@@ -493,10 +510,20 @@ Experience time differently — with craftsmanship that lasts generations. </p>
 </div>
 
 <!-- Image of location/map -->
-<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+ <center>
+<address>
+  
+  THIRUVOTTRIYUR,<br>
+  CHENNAI-600019,<br>
+  TAMILNADU, INDIA<br>
+  <a href="https://www.google.com/maps/place/Tiruvottiyur,+Chennai,+Tamil+Nadu" target="_blank">
+    <B>VIEW ON GOOGLE MAP</B>
+  </a>
+</address>
+</center>
 
 <footer class="container-fluid text-center">
-  <a href="#myPage" title="To Top">
+  
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p> Theme Made By <a href="prasanth" >nexuswatches.com</a></p>
